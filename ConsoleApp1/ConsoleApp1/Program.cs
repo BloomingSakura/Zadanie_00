@@ -9,6 +9,9 @@ class Program
 
         tablice.Powitanie();
 
-       int[] tab = tablice.Stworz_Tablice();
+        int[] tab = tablice.Stworz_Tablice();
+
+        Console.Clear();
+        tablice.Wyswietl_Tablice(tab);
     }
 }
