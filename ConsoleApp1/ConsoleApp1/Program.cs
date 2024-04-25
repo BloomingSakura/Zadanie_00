@@ -15,5 +15,6 @@ class Program
         tablice.Wyswietl_Tablice(tab);
         tablice.SortujBabelkowo(tab);
         tablice.Wyswietl_Tablice(tab);
+        tablice.Przeszukiwanie_Tablicy(5, tab);
     }
 }
