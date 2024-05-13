@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        Listy abc = new Listy();     
+        List<int> ints = abc.StworzListe();
+
         //wywołujemy obiekt 'tablica'
         Tablice tablice = new Tablice();
 
@@ -16,5 +19,6 @@ class Program
         tablice.SortujBabelkowo(tab);
         tablice.Wyswietl_Tablice(tab);
         tablice.Przeszukiwanie_Tablicy(5, tab);
+      
     }
 }
